@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -38,6 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: DeeperBackgrounds
+    uniqueID: 3457926037
+    locked: 0
+  - name: Backgrounds
+    uniqueID: 3309476161
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Projectiles
+    uniqueID: 121109753
+    locked: 0
+  - name: Pivot
+    uniqueID: 894599401
+    locked: 0
+  - name: Player
+    uniqueID: 273714909
     locked: 0
