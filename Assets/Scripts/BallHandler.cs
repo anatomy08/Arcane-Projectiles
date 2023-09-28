@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class BallHandler : MonoBehaviour
 {
@@ -13,12 +14,14 @@ public class BallHandler : MonoBehaviour
      Rigidbody2D currentBallRigidBody;  
      SpringJoint2D currentBallSprintJoint; 
 
+    
      bool isDragging;
     
     void Start()
     {
         mainCamera = Camera.main; // we get the main camera to put in the variable mainCamera
         SpawnNewBall(); // when the game starts we want to spawn a new player or we throw a player
+        
     }
 
   
@@ -52,6 +55,7 @@ public class BallHandler : MonoBehaviour
        
        currentBallRigidBody.position = worldPosition; // this is where when we click/touch in the screen the player appears
 
+        
        
     }
     
@@ -91,8 +95,6 @@ public class BallHandler : MonoBehaviour
 
 
     }
-
     
-
-
+   
 }

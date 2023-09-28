@@ -137,4 +137,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathEffect: {fileID: 3322094483880059714, guid: cfdf1c1889b297448a1120e7aa58214b, type: 3}
+  stageDelay: 2
   health: 4
